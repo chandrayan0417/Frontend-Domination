@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#main {
+  background-color: red;
+}
+
+#text {
+  background-color: blue;
+}
+#description {
+  background-color: green;
+}
+
+#nav {
+  background-color: yellow;
+}
+
+#options {
+  background-color: orange;
+}
+#img {
+  background-color: purple;
+}
