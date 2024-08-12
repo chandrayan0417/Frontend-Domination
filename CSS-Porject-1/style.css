@@ -67,20 +67,19 @@ body {
   display: flex;
 }
 #options {
-padding: 0px 80px;
+  padding: 0px 80px;
   grid-row: 3;
   grid-column: 2;
 }
 
-#options h5{
+#options h5 {
   font-size: 20px;
   font-weight: 500;
   padding: 10px 2px;
 }
 
 #options i {
-padding: 0px 0px 0px 140px;
-
+  padding: 0px 0px 0px 140px;
 }
 #img {
   grid-row: 4;
@@ -90,7 +89,7 @@ padding: 0px 0px 0px 140px;
   background-image: url("https://images.unsplash.com/photo-1701806244887-391677f29718?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
 
-  background-position: 0 60% ;
+  background-position: 0 60%;
 }
 
 #bag {
@@ -104,4 +103,67 @@ padding: 0px 0px 0px 140px;
   font-size: 20px;
   font-weight: 500;
   margin: 10px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------- */
+
+@media (max-width: 600px) {
+  #main {
+    grid-template-rows: 5% 30% 10% 15% 40%;
+    grid-template-columns: 100%;
+  }
+
+  #nav {
+    padding: 15px;
+    gap: 10px;
+    grid-column: 1;
+  }
+
+  #nav h4 {
+    font-size: 15px;
+  }
+
+  #text {
+    padding: 0px 30px;
+    grid-column: 1;
+  }
+
+  #text h1 {
+    font-size: 10vw;
+    line-height: 11vw;
+  }
+
+  #description {
+    grid-row: 3;
+    grid-column: 1;
+  }
+
+  #description p {
+    font-size: 3vw;
+    padding: 0px 30px;
+  }
+  #options {
+    padding: 13px 30px;
+    grid-row: 4;
+    grid-column: 1;
+  }
+
+  #options h5 {
+    font-size: 15px;
+    padding: 8px 2px;
+  }
+
+  #options i {
+    padding: 0px 0px 0px 260px;
+  }
+  #img {
+    grid-row: 5;
+    grid-column: 1;
+    background-position: 40% 60%;
+  }
+
+  #bag {
+    padding: 8px;
+    font-size: 15px;
+  }
 }
