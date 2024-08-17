@@ -1,12 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import Card from "./Components/Card";
 
 function App() {
-  return (
-    <div>
-     <Card/>
-    </div>
-  );
+  const [score, setScore] = useState(0);
+  return <div>{score}</div>;
 }
 
 export default App;
